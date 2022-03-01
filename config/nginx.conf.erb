@@ -13,8 +13,6 @@ http {
 
 	server {
 		listen 80;
-		server_name _;
-    		server_name_in_redirect off;
 
 		location / {
 			proxy_pass <%= ENV["UPSTREAM_SERVER"] %>;
