@@ -10,11 +10,17 @@ events {
 http {
 	client_max_body_size 100m;
 	access_log /dev/stdout;
+
 	server {
-		listen <%= ENV["PORT"] %>;
+		listen 80;
+		server_name _;
+    		server_name_in_redirect off;
 
 		location / {
 			proxy_pass <%= ENV["UPSTREAM_SERVER"] %>;
+    			proxy_set_header Origin <%= ENV["UPSTREAM_SERVER"] %>;
+    			proxy_hide_header Access-Control-Allow-Origin;
+    			add_header Access-Control-Allow-Origin $http_origin;
 		}
 
 		if ($http_x_forwarded_proto != "https") {
