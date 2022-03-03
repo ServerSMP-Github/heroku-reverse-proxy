@@ -11,3 +11,8 @@ Use the [Deploy to Heroku](https://heroku.com/deploy) button above to create a c
 ## Credits
 
 Based on [api-proxy-3scale-heroku](https://github.com/Taytay/api-proxy-3scale-heroku).
+
+
+### What is different?
+
+Um the config file is changed to support up to 100mb uploads.
