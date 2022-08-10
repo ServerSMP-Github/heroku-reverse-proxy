@@ -1,3 +1,3 @@
 dependencies = {
-	"https://raw.github.com/leafo/heroku-openresty/master/heroku-openresty-dev-2.rockspec"
+	"https://github.com/heroku/heroku-buildpack-nginx.git"
 }
