@@ -10,7 +10,7 @@ Use the [Deploy to Heroku](https://dashboard.heroku.com/new?button-url=https%3A%
 
 ## Credits
 
-Based on [api-proxy-3scale-heroku](https://github.com/Taytay/api-proxy-3scale-heroku).
+Based on [api-proxy-3scale-heroku](https://github.com/Taytay/api-proxy-3scale-heroku) and [heroku-reverse-proxy](https://github.com/octoberswimmer/heroku-reverse-proxy).
 
 ## What is different?
 
