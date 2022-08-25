@@ -14,4 +14,4 @@ Based on [api-proxy-3scale-heroku](https://github.com/Taytay/api-proxy-3scale-he
 
 ## What is different?
 
-I updated it so it will work with `heroku-22`
+I updated it so it will work with `heroku-20`
