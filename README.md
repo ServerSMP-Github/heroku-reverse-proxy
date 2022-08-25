@@ -2,11 +2,11 @@
 
 Run a reverse proxy using nginx on Heroku.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ServerSMP-Github/heroku-reverse-proxy)
 
 ## Installation
 
-Use the [Deploy to Heroku](https://heroku.com/deploy) button above to create a copy of the app.
+Use the [Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/ServerSMP-Github/heroku-reverse-proxy) button above to create a copy of the app.
 
 ## Credits
 
